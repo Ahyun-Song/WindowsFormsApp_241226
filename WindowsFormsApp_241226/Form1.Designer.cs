@@ -146,7 +146,7 @@ namespace calculating_machine
             this.button_float.TabIndex = 22;
             this.button_float.Text = ".";
             this.button_float.UseVisualStyleBackColor = true;
-          //  this.button_float.Click += new System.EventHandler(this.button_float_Click);
+            this.button_float.Click += new System.EventHandler(this.button_float_Click);
             // 
             // button_number0
             // 
@@ -169,7 +169,7 @@ namespace calculating_machine
             this.button_covertsign.TabIndex = 20;
             this.button_covertsign.Text = "+/-";
             this.button_covertsign.UseVisualStyleBackColor = true;
-           // this.button_covertsign.Click += new System.EventHandler(this.button_covertsign_Click);
+            this.button_covertsign.Click += new System.EventHandler(this.button_covertsign_Click);
             // 
             // button_add
             // 
@@ -332,7 +332,7 @@ namespace calculating_machine
             this.button_squareroot.TabIndex = 6;
             this.button_squareroot.Text = "√x";
             this.button_squareroot.UseVisualStyleBackColor = true;
-          //  this.button_squareroot.Click += new System.EventHandler(this.button_squareroot_Click);
+            this.button_squareroot.Click += new System.EventHandler(this.button_squareroot_Click);
             // 
             // button_spuare
             // 
@@ -343,7 +343,7 @@ namespace calculating_machine
             this.button_spuare.TabIndex = 5;
             this.button_spuare.Text = "x²";
             this.button_spuare.UseVisualStyleBackColor = true;
-          //  this.button_spuare.Click += new System.EventHandler(this.button_spuare_Click);
+            this.button_spuare.Click += new System.EventHandler(this.button_spuare_Click);
             // 
             // button_invert
             // 
@@ -354,7 +354,7 @@ namespace calculating_machine
             this.button_invert.TabIndex = 4;
             this.button_invert.Text = "1/x";
             this.button_invert.UseVisualStyleBackColor = true;
-          //  this.button_invert.Click += new System.EventHandler(this.button_invert_Click);
+            this.button_invert.Click += new System.EventHandler(this.button_invert_Click);
             // 
             // button_backspace
             // 
@@ -398,7 +398,7 @@ namespace calculating_machine
             this.button_percent.TabIndex = 0;
             this.button_percent.Text = "%";
             this.button_percent.UseVisualStyleBackColor = true;
-           // this.button_percent.Click += new System.EventHandler(this.button_percent_Click);
+            this.button_percent.Click += new System.EventHandler(this.button_percent_Click);
             // 
             // Form1
             // 
